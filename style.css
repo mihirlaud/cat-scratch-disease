@@ -1,0 +1,188 @@
+body {
+	background-color: black;
+}
+
+h1, h2, h3, p, a, ul {
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 25px;
+}
+
+h1, h2 { 
+	color: rgb(190, 0, 0);
+	text-transform: uppercase;
+}
+
+i {
+	color: rgb(190, 0, 0);
+}
+
+h1 {
+	padding-top: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, ul {
+	color: white;
+	font-size: 20px;
+}
+
+a {
+	color: rgb(190, 0, 0);
+	font-size: 20px;
+}
+
+h3 {
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+}
+
+nav a {
+	float: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a.active {
+	background-color: #454545;
+}
+
+nav a:hover {
+	background-color: #707070;
+	color: rgb(190, 0, 0);
+}
+
+nav {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #202020;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.info {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.bottom {
+	padding-bottom: 125px;
+}
+
+.top {
+	padding-top: 75px;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.carousel {
+	height: 450px;
+	width: 800px;
+	display: inline;
+	
+}
+
+.image {
+	background-color: #505050;
+	width: 100%;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p, footer a {
+	font-size: 15px;
+	line-height: 14px;
+}
+
+button {
+	height: 100px;
+	width: 50px;
+	display: inline;
+	color: white;
+	background-color: rgb(190, 0, 0);
+	border: none;
+}
+
+.carousel-btn {
+	position: relative;
+	bottom: 400px;
+}
+
+.left-button {
+	float: left;
+	margin-left: 100px;
+}
+
+.right-button {
+	float: right;
+	margin-right: 100px;
+}
+
+.big-btn {
+	font-size: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 200px;
+	width: 300px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	text-align: center;
+    background-color: #404040;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; 
+}
+
+
+#modal-close {
+    color: rgb(190, 0 ,0);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#modal-img {
+	width: 150px;
+	height: 150px;
+	box-shadow: 10px 10px 5px;
+	margin-top: 25px;
+	padding: 0px 0px 0px 0px;
+}

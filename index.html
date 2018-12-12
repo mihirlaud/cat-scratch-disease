@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+  <title>Cat-Scratch Disease</title>
+</head>
+
+<body>
+
+  <nav>
+	<a href="#basic-info">Basic Info</a>
+	<a href="#transmission">Transmission</a>
+	<a href="#symptoms">Symptoms</a>
+	<a href="#prognosis">Prognosis</a>
+  </nav>
+  
+  <h1>Cat-scratch Disease</h1>
+  
+  <div class="info top bottom" id="basic-info">
+    <h2>What is Cat-Scratch Disease?</h2>
+	<p>Cat-scratch disease is a disease caused by the bacterium <i>Bartonella henselae</i>. <br/>
+	It is carried by cats, who transmit it through scratching and biting. <br/>
+	The incubation period for cat-scratch disease is<br/>
+	<i>two weeks.</i></p>
+  </div>
+  
+  <div class="image">
+	<img src="bartonella.jpg"></img>
+  </div>
+  
+  <div class="info">
+	<h3><i>Bartonella henselae</i> cells, stained with Warthin-Starry reagent</h3>
+  </div>
+  
+  <div class="info top bottom" id="transmission">
+	<h2>Method of Transmission</h2>
+	<p>Cat-scratch disease is primarily transmitted through <i>scratches and bites</i> from cats.<br/>
+	   However, <i>fleas</i> on cats can also carry <i>B. henselae</i></br>
+	   and <i>dogs</i> have been known to rarely transmit the disease.</p>
+  </div>
+  
+  <div class="image">
+	<img class="carousel" src="carousel01.jpg">
+	<img class="carousel" src="carousel02.jpg">
+	<img class="carousel" src="carousel03.jpg">
+  </div>
+  
+  <div class="info">
+	<h3>Images of <i>Felis catus</i>, the primary carriers of cat-scratch disease</h3>
+  </div>
+  
+  <button class="carousel-btn left-button" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="carousel-btn right-button" onclick="plusDivs(+1)">&#10095;</button>
+  <script>showDivs(slideIndex);</script>
+
+  <div class="info top bottom" id="symptoms">
+	<h2>Symptoms</h2>
+	<p>After two weeks, the site of infection can begin to show <i>pus-filled lesions</i>, <i>redness</i> and <i>inflammation.</i><br/>
+	   Other symptoms include fever, headache, lack of appetite, and fatigue.<br/>
+	   Symptoms last anywhere from <i>two to four months</i>, but most people make a full recovery afterwards.</p>
+	<a href="https://www.cdc.gov/healthypets/diseases/cat-scratch.html" target="_blank">Click here to go to the CDC website and find out more about symptoms.</a>
+  </div>
+  
+  <div class="info">
+	<h2>Cat Bites and Wound Care</h2>
+	<iframe width="656" height="369" src="https://www.youtube.com/embed/kNc0NTpXJrw"></iframe>
+	<p>Learn about <i>cat bites and wound care</i> from the Mayo Clinic.</p>
+  </div>
+  
+  <div class="info top bottom" id="prognosis">
+	<h2>Prognosis</h2>
+	<p>Choose one of the boxes below to learn about the <i>prognosis</i> for cat-scratch disease.</p>
+	<button class="big-btn" id="untreated">Untreated</button>
+	<button class="big-btn" id="treated">Treated</button>
+  </div>
+  
+  <div id="prog" class="modal">
+	<div class="modal-content">
+      <span id="modal-close">&times;</span>
+	  <h2 id="modal-title"></h2>
+	  <img id="modal-img"></img>
+	  <p id="modal-text"></p>
+	</div>
+  </div>
+  
+  <footer>
+	<p>
+	Website by <i>Mihir Laud</i><br/>
+	Created for Adult Issues 3A 2018 - 2019
+	</p>
+  </footer>
+  
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+</body>
+
+</html>
